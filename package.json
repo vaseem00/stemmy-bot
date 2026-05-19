@@ -1,0 +1,19 @@
+{
+  "name": "stemmy-telegram-bot",
+  "version": "1.0.0",
+  "description": "Stemmy Telegram Bot — Spaced repetition vocabulary reviews via Telegram",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.0",
+    "dotenv": "^16.4.7",
+    "grammy": "^1.35.0",
+    "ts-fsrs": "^5.3.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
