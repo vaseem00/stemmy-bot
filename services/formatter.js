@@ -30,6 +30,7 @@ function welcomeMessage(firstName) {
         `1️⃣ Open Stemmy → Settings → Integrations\n` +
         `2️⃣ Click <b>Connect Telegram</b>\n` +
         `3️⃣ It will bring you back here automatically!\n\n` +
+        `<i>Don't have it yet? <a href="https://chromewebstore.google.com/detail/stemmy-vocabulary-wallet/mcajkojclojhelolpcggbgmdkccedbmh">Install Stemmy from the Chrome Web Store</a></i>\n\n` +
         `Once connected, I'll send you creative reviews:\n` +
         `📰 Micro-stories using your words\n` +
         `🧩 Fill-in-the-blank challenges\n` +
@@ -143,7 +144,7 @@ function helpMessage() {
         `🎯 Synonym showdowns\n\n` +
         `Each review uses <b>spaced repetition</b> — words you find ` +
         `harder appear more often, while easy words space out naturally.\n\n` +
-        `<i>🔗 Install the Stemmy Chrome extension to collect vocabulary while browsing!</i>`;
+        `<i>🔗 <a href="https://chromewebstore.google.com/detail/stemmy-vocabulary-wallet/mcajkojclojhelolpcggbgmdkccedbmh">Install the Stemmy Chrome extension</a> to collect vocabulary while browsing!</i>`;
 }
 
 // ─── Rated Confirmation ───────────────────────────────────
@@ -160,7 +161,7 @@ function notConnected() {
     return `🔗 <b>Not connected yet!</b>\n\n` +
         `Open the Stemmy Chrome extension:\n` +
         `Settings → Integrations → <b>Connect Telegram</b>\n\n` +
-        `<i>This links your vocabulary wallet to this bot.</i>`;
+        `<i>Don't have it? <a href="https://chromewebstore.google.com/detail/stemmy-vocabulary-wallet/mcajkojclojhelolpcggbgmdkccedbmh">Install Stemmy here</a> to link your vocabulary wallet.</i>`;
 }
 
 // ─── No Words Due ─────────────────────────────────────────
